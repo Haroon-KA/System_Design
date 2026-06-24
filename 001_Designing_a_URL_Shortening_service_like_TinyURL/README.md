@@ -163,7 +163,7 @@ expire_date (string)    : Optional expiration date for the shortened URL.
 A successful insertion returns the shortened URL; otherwise, it returns an error code.
 
 ```
-deleteURL(api_dev_key,url_kexy)
+deleteURL(api_dev_key,url_key)
 ```
 
 Where "url_key" is a string representing the shortened URL to be retrieved. A successful deletion returns 'URL Removed'.
